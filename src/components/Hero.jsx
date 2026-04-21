@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
 const slides = [
-  'https://images.pexels.com/photos/36433441/pexels-photo-36433441.jpeg',
-  'https://images.pexels.com/photos/8454933/pexels-photo-8454933.jpeg',
-  'https://images.pexels.com/photos/3763869/pexels-photo-3763869.jpeg',
-  'https://images.pexels.com/photos/7862955/pexels-photo-7862955.jpeg'
+  'https://images.pexels.com/photos/4880409/pexels-photo-4880409.jpeg',
+  'https://images.pexels.com/photos/7202798/pexels-photo-7202798.jpeg',
+  'https://images.pexels.com/photos/5840225/pexels-photo-5840225.jpeg',
+  'https://images.pexels.com/photos/6070058/pexels-photo-6070058.jpeg',
 ]
 
 const textSlides = [

@@ -4,25 +4,25 @@ import Product from './Product';
 const WomenProducts = () => {
     const products = [
   {
-    image: "https://images.pexels.com/photos/27098844/pexels-photo-27098844.jpeg",
+    image: "https://images.pexels.com/photos/15577034/pexels-photo-15577034.jpeg",
     name: "Camiseta Fitness Dry Fit",
     price: 89.90,
     colors: ["#c984b7", "#3b82f6", "#680a66"]
   },
   {
-    image: "https://images.pexels.com/photos/6075883/pexels-photo-6075883.jpeg",
+    image: "https://images.pexels.com/photos/9558764/pexels-photo-9558764.jpeg",
     name: "Legging Compressão",
     price: 129.90,
     colors: ["#f97316", "#6b7280", "#000000"]
   },
   {
-    image: "https://images.pexels.com/photos/5140797/pexels-photo-5140797.jpeg",
+    image: "https://images.pexels.com/photos/6311612/pexels-photo-6311612.jpeg",
     name: "Top Esportivo",
     price: 69.90,
     colors: ["#000000", "#52064f", "#de8ede"]
   },
   {
-    image: "https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg",
+    image: "https://images.pexels.com/photos/30095402/pexels-photo-30095402.jpeg",
     name: "Shorts Treino",
     price: 79.90,
     colors: ["#7a7a7a", "#450000", "#eab308"]

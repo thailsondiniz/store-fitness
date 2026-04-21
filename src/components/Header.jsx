@@ -3,7 +3,7 @@ import { ShoppingBag } from 'lucide-react';
 import { Search } from 'lucide-react';
 const Header = () => {
   return (
-    <div className='flex justify-between items-center p-4 bg-white text-gray-800'>
+    <div className='flex justify-between items-center p-4 bg-white text-gray-800 border-b border-gray-300'>
         <ul className='flex space-x-4 font-medium cursor-pointer'>
             <li>Ofertas</li>
             <li>Novidades</li>
