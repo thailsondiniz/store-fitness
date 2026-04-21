@@ -50,7 +50,8 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="absolute bottom-10 left-10 z-10">
+      {/* <div className="absolute bottom-10 left-10 z-10"> */}
+      <div className='flex flex-col items-center absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10'>
         <h3>{currentSlide + 1} de {slides.length}</h3>
         <div className="flex space-x-2 mt-2">
           {slides.map((_, index) => (

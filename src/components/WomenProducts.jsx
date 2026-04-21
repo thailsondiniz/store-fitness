@@ -1,7 +1,7 @@
 import React from 'react'
 import { SlidersHorizontal } from 'lucide-react';
 import Product from './Product';
-const FeaturedProducts = () => {
+const WomenProducts = () => {
     const products = [
   {
     image: "https://images.pexels.com/photos/27098844/pexels-photo-27098844.jpeg",
@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
     return (
         <div className='w-full py-16 px-8'>
             <div className='flex justify-between'>
-                <h2 className='text-2xl'>Ofertas</h2>
+                <h2 className='text-2xl'>Roupas Femininas</h2>
                 <SlidersHorizontal size={20} className='cursor-pointer'/>
             </div>
             <div className='flex flex-col items-center'>
@@ -46,4 +46,4 @@ const FeaturedProducts = () => {
     )
 }
 
-export default FeaturedProducts
+export default WomenProducts
